@@ -33,6 +33,14 @@ library
             ghcjs-prim -any,
             ghc-prim -any
     exposed-modules:
+        JSDOM.Types.Core
+        JSDOM.Types.TypesCore
+        JSDOM.Types.TypesHTML
+        JSDOM.Types.TypesWebGL
+        JSDOM.Types.TypesSVG
+        JSDOM.Types.Types00
+        JSDOM.Types.Types0
+        JSDOM.Types.TypesAB
         JSDOM.Custom.AudioContext
         JSDOM.Custom.Database
         JSDOM.Custom.DOMError
