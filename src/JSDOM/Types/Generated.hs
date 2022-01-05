@@ -9,9 +9,9 @@
 -- For HasCallStack compatibility
 {-# LANGUAGE ImplicitParams, KindSignatures #-}
 {-# OPTIONS_GHC -fno-warn-unused-imports #-}
-module JSDOM.Types (
+module JSDOM.Types.Generated (
 -- AUTO GENERATION STARTS HERE
-  , AddEventListenerOptionsOrBool(AddEventListenerOptionsOrBool), unAddEventListenerOptionsOrBool, IsAddEventListenerOptionsOrBool, toAddEventListenerOptionsOrBool
+    AddEventListenerOptionsOrBool(AddEventListenerOptionsOrBool), unAddEventListenerOptionsOrBool, IsAddEventListenerOptionsOrBool, toAddEventListenerOptionsOrBool
   , BinaryData(BinaryData), unBinaryData, IsBinaryData, toBinaryData
   , BlobPart(BlobPart), unBlobPart, IsBlobPart
   , BodyInit(BodyInit), unBodyInit, IsBodyInit
@@ -858,6 +858,8 @@ import GHC.Stack (HasCallStack)
 import GHC.Exts (Constraint)
 type HasCallStack = (() :: Constraint)
 #endif
+import JSDOM.Types.Manual
+
 
 -- AUTO GENERATION STARTS HERE
 -- The remainder of this file is generated from IDL files using domconv-webkit-jsffi
