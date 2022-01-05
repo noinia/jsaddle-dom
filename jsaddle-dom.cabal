@@ -1217,6 +1217,9 @@ library
                         JSDOM.Generated.XPathNSResolver as JSDOM.XPathNSResolver,
                         JSDOM.Generated.XPathResult as JSDOM.XPathResult,
                         JSDOM.Generated.XSLTProcessor as JSDOM.XSLTProcessor
+    other-modules:
+      JSDOM.Types.Manual
+      JSDOM.Types.Generated
     build-depends:
         base >=4.7.0.0 && <5,
         base-compat >=0.9.0 && <0.12,
